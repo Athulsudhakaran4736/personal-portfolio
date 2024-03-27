@@ -1,0 +1,41 @@
+header {
+  padding: 5px;
+}
+.container {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-text {
+  font-size: 21px;
+  font-weight: 700;
+  color: #24262f;
+}
+.list-container ul {
+  font-size: 22px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  font-weight: 700;
+}
+
+.list-container ul li {
+  color: #4e525a;
+}
+.list-container ul li:hover {
+  color: #6e06f2;
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.contact-container:hover{
+    opacity: 0.8;
+}
