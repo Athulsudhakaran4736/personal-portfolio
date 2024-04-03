@@ -1,6 +1,20 @@
 header {
   padding: 5px;
 }
+.header-responsive{
+  display: none;
+}
+.hamburger-icon {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.res-name-text{
+  display: none;
+}
+.res-container {
+  display: none;
+}
 .container {
   max-width: 1600px;
   margin: auto;
@@ -10,7 +24,7 @@ header {
 }
 .name-text {
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 800;
   color: #24262f;
 }
 .list-container ul {
@@ -28,8 +42,9 @@ header {
 }
 .list-container ul li:hover {
   color: #6e06f2;
-  cursor: pointer; /* Add pointer cursor on hover */
+  cursor: pointer; 
 }
+
 .contact-container{
     display: flex;
     justify-content: center;
@@ -38,4 +53,43 @@ header {
 }
 .contact-container:hover{
     opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+  header{
+    max-width: 90%;
+  }
+.header-responsive{
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+}
+  .res-name-text{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: #24262f;
+  }
+  .res-container.show {
+    display: block;
+  }
+
+  .res-container.show ul{
+    display: block;
+  }
+  .res-container.show ul li {
+    margin-top: 10px;
+  }
+  .res-container.show ul li:hover {
+    color: #6e06f2;
+    cursor: pointer; 
+  }
+  .container {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: flex;
+  }
+
 }

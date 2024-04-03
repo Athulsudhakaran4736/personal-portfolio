@@ -2,6 +2,7 @@
   max-width: 1600px;
   margin: auto;
   margin-bottom: 40px;
+  margin-top: 50px;
 }
 .top-footer {
   display: flex;
@@ -92,4 +93,76 @@
   font-size: 20px;
   color: #4e525a;
   margin-top: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container{
+    max-width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .top-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-social{
+    margin-top: 40px;
+  }
+  .footer-links ul {
+    font-size: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    font-weight: 700;
+    padding: 0px;
+  }
+  .bottom-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .work-sub-container {
+    color: #4e525a;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .work-button-one {
+    padding: 10px;
+    color: aliceblue;
+    background-color: #6e06f2;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px #6e06f2;
+  }
+  .work-button-two {
+    padding: 10px;
+    color: #24262f;
+    font-weight: 600;
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #24262f;
+  }
+  .work-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+  }
+  .copy-right {
+    display: flex;
+    font-size: 18px;
+    color: #4e525a;
+
+  }
+
 }
