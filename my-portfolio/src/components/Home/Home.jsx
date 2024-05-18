@@ -139,7 +139,7 @@ const Home = () => {
         </div>
 
         <HomeSkills />
-        <HomeProject />
+        {/* <HomeProject /> */}
         <HomeExperience />
         <HomeStory />
       </div>
