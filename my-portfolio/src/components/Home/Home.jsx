@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 // import Particles, { initParticlesEngine } from "@tsparticles/react";
 // import { loadSlim } from "@tsparticles/slim";
 // import { useMemo } from "react";
-// import HomeProject from "../HomeProject/HomeProject";
+import HomeProject from "../HomeProject/HomeProject";
 
 const Home = () => {
   // useEffect(() => {
@@ -133,7 +133,7 @@ const Home = () => {
         </div>
 
         <HomeSkills />
-        {/* <HomeProject /> */}
+        <HomeProject />
         <HomeExperience />
         <HomeStory />
       </div>
