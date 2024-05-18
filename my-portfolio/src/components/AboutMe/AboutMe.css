@@ -1,0 +1,106 @@
+.aboutme-container {
+  max-width: 1600px;
+  margin: auto;
+  margin-top: 100px;
+}
+.aboutme-container-wrapper h1 {
+  font-size: 100px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.to-do {
+  border-left: 10px solid #6e06f2;
+}
+.to-do h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 15px;
+}
+.stack-globe-container {
+  width: 100%;
+  display: flex;
+  column-gap: 100px;
+  margin-top: 30px;
+}
+.my-stack-heading {
+  font-size: 35px;
+  font-weight: 800;
+}
+.my-stack {
+  width: 600px;
+  background-color: #b8b8b8;
+  border-radius: 10px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.stack-skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.stack-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.stack-skill .skill {
+  padding: 10px;
+  background-color: black;
+  color: #e6e6e6;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.my-location-heading {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.res-location-container{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .stack-globe-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutme-container {
+   max-width: 80%;
+  }
+  .aboutme-location-img{
+    display: none;
+  }
+  .aboutme-container-wrapper h1 {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  .to-do h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 15px;
+  }
+  .my-stack {
+    width: 280px;
+    padding: 10px;
+  }
+  .location-container {
+    display: none;
+  }
+  .aboutme-location-img{
+    width: auto;
+  }
+  .res-location-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+}

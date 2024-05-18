@@ -1,64 +1,140 @@
-.skills-wrapper h1{
-    font-size: 70px;
-    font-weight: 800;
+.skills-wrapper h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+.skills-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
 }
 .main-skill-wrapper{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #6e06f777;
-    padding: 40px;
-    width: 100%;
-    border-radius: 20px;
-    margin-bottom: 120px;
-}
-.main-skill-wrapper .main-skill-header{
-    font-size: 36px;
-    font-weight: 700;
-}
-.main-skill-items{
-    font-size: 20px;
-    color: #4e525a;
-    font-weight: 500;
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
 }
 .main-skill-sub-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  width: 100px;
+  border-radius: 15px;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  margin-bottom: 50px; 
+  transform: scale(1);
+  /* transition: transform 1s ease; */
+  scale: .4; 
+  opacity: 0;
+  transform: translateY(100px);
+  animation: fade-in 1s linear forwards;
+  animation-timeline: view();
+  animation-range: 100px 500px;
+}
+@keyframes fade-in{
+  to {scale: 1; opacity: 1;transform: translateY(0);}
+}
+
+.main-skill-sub-wrapper:hover{
+  /* transform: scale(1.08); */
+  /* background-color: hsl(271, 100%, 60%); */
+  background-color: whitesmoke;
+  color: black;
+}
+
+.image-wrapper-icon{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+/* .main-skill-wrapper {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #6e06f777;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 120px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.main-skill-wrapper :hover{
+    transform: scale(1.02);
+}
+.main-skill-wrapper .main-skill-header {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.main-skill-items {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+.main-skill-sub-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.6;
+  column-gap: 30px;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-card .ant-card-body {
+    padding: 24px;
+    border-radius: 0 0 8px 8px;
+    width: 300px;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-card-bordered {
+    border: 1px solid #393939;
+    background-color: #3D3E42;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-card-bordered:hover {
+    border: 1px solid #393939;
+    background-color: #6e06f2;
+} */
+
+@media only screen and (max-width: 600px) {
+  .skills-wrapper h1 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  /* .main-skill-wrapper .main-skill-header {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .main-skill-items {
+    font-size: 18px;
+    color: #4e525a;
+    font-weight: 500;
+  }
+  .main-skill-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 0.6;
-}
-@media only screen and (max-width: 600px){
-    .skills-wrapper h1{
-        font-size: 30px;
-        font-weight: 800;
-    }
-    .main-skill-wrapper{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        border: 1px solid #6e06f777;
-        padding: 20px;
-        width: 100%;
-        border-radius: 20px;
-        margin-bottom: 80px;
-        /* max-width: 80%; */
-    }
-    .main-skill-wrapper .main-skill-header{
-        font-size: 26px;
-        font-weight: 700;
-    }
-    .main-skill-items{
-        font-size: 18px;
-        color: #4e525a;
-        font-weight: 500;
-    }
-    .main-skill-wrapper{
-        display: flex;
-        justify-content: space-between;
-        border: 1px solid #6e06f777;
-        padding: 40px;
-        width: auto;
-        border-radius: 20px;
-        margin-bottom: 120px;
-    }
+    justify-content: space-between;
+    border: 1px solid #6e06f777;
+    padding: 20px;
+    width: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+  }
+  .main-skill-sub-wrapper {
+    margin-bottom: 20px;
+  }
+  :where(.css-dev-only-do-not-override-11xg00t).ant-card .ant-card-body {
+    padding: 24px;
+    border-radius: 0 0 8px 8px;
+    width: 250px;
+} */
 }

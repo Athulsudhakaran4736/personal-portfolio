@@ -1,74 +1,67 @@
-.experience-wrapper{
-    margin-bottom: 120px;
+.experience-wrapper {
+  margin-bottom: 120px;
 }
-.experience-wrapper h1{
-    font-size: 70px;
+.experience-wrapper h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+.experience-sub-wrapper {
+  /* border: 1px solid #6e06f777; */
+  padding: 10px;
+  width: 100%;
+  /* border-radius: 20px; */
+}
+.experience-sub-wrapper .experience-title {
+  font-size: 23px;
+  font-weight: 700;
+}
+.experience-sub-wrapper p {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.task-items {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.task-items .task-item-text h1 {
+  font-size: 21px;
+  font-weight: 500;
+  color: white;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience-wrapper h1 {
+    font-size: 40px;
     font-weight: 800;
-}
-.experience-sub-wrapper{
-    border: 1px solid #6e06f777;
-    padding: 40px;
-    width: 100%;
-    border-radius: 20px;
-}
-.experience-sub-wrapper .experience-title{
-    font-size: 23px;
-    font-weight: 700;
-}
-.experience-sub-wrapper p{
-    font-size: 16px;
-    font-weight: 600;
-    color: #4e525a;
-}
-.task-items{
+  }
+  .experience-wrapper {
+    margin-bottom: 80px;
     display: flex;
-    margin-top: 40px;
-    align-items: center;
-}
+    flex-direction: column;
+  }
 
-.task-items .task-item-text h1{
-    font-size: 21px;
+  .experience-sub-wrapper .experience-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .experience-sub-wrapper p {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+  }
+  .task-items .task-item-text h1 {
+    font-size: 18px;
     font-weight: 500;
-    color: #4e525a;
+    color: white;
     margin-left: 15px;
-}
-
-@media only screen and (max-width: 600px){
-    .experience-wrapper h1{
-        font-size: 30px;
-        font-weight: 800;
-    }
-    .experience-wrapper {
-        margin-bottom: 80px;
-        display: flex;
-        flex-direction: column;
-    }
-    .experience-sub-wrapper{
-        border: 1px solid #6e06f777;
-        padding: 20px;
-        border-radius: 20px;
-        padding: 20px;
-
-    }
-    .experience-sub-wrapper .experience-title{
-        font-size: 20px;
-        font-weight: 700;
-    }
-    .experience-sub-wrapper p{
-        font-size: 15px;
-        font-weight: 600;
-        color: #4e525a;
-    }
-    .task-items .task-item-text h1{
-        font-size: 18px;
-        font-weight: 500;
-        color: #4e525a;
-        margin-left: 15px;
-    }
-    .experience-sub-wrapper{
-        border: 1px solid #6e06f777;
-        padding: 40px;
-        width: auto;
-        border-radius: 20px;
-    }
+  }
+  .experience-sub-wrapper {
+    padding: 20px;
+    width: auto;
+    border-radius: 20px;
+  }
 }

@@ -1,5 +1,13 @@
 import "./HomeSkills.css";
+import html5 from "../../assets/html-5.png";
+import css from "../../assets/css3.png";
+import js from "../../assets/javascript.png";
+import react from "../../assets/react.png";
+import nodejs from "../../assets/node-dot-js.png";
+import mongodb from "../../assets/mongodb.png";
+import express from "../../assets/express.png";
 
+import "animate.css";
 const HomeSkills = () => {
   return (
     <div className="skills-wrapper">
@@ -8,25 +16,55 @@ const HomeSkills = () => {
       </h1>
       <div className="main-skill-wrapper">
         <div className="main-skill-sub-wrapper">
-          <h1 className="main-skill-header">Frontend</h1>
-          <p className="main-skill-items">HTML5</p>
-          <p className="main-skill-items">CSS3</p>
-          <p className="main-skill-items">Javascript</p>
-          <p className="main-skill-items">ReactJS</p>
+          <div className="skill-wrapper">
+            <div className="image-wrapper-icon">
+              <img src={html5} />
+              <img src={css} />
+            </div>
+            <h4>HTML & CSS</h4>
+          </div>
         </div>
         <div className="main-skill-sub-wrapper">
-          <h1 className="main-skill-header">Backend</h1>
-          <p className="main-skill-items">NodeJs</p>
-          <p className="main-skill-items">MongoDB</p>
-          <p className="main-skill-items">ExpressJS</p>
-          <p className="main-skill-items">Vercel</p>
+          <div className="skill-wrapper">
+            <div className="image-wrapper-icon">
+              <img src={js} />
+            </div>
+            <h4>JavaScript</h4>
+          </div>
         </div>
         <div className="main-skill-sub-wrapper">
-          <h1 className="main-skill-header">Soft Skills</h1>
-          <p className="main-skill-items">Effective communication</p>
-          <p className="main-skill-items">Collaboration</p>
-          <p className="main-skill-items">Commitment</p>
-          <p className="main-skill-items">Work Ethic</p>
+          <div className="skill-wrapper">
+            <div className="image-wrapper-icon">
+              <img src={react} />
+            </div>
+            <h4>ReactJS</h4>
+          </div>
+        </div>
+      </div>
+      <div className="main-skill-wrapper">
+        <div className="main-skill-sub-wrapper">
+          <div className="skill-wrapper">
+            <div className="image-wrapper-icon">
+              <img src={nodejs} />
+            </div>
+            <h4>NodeJS</h4>
+          </div>
+        </div>
+        <div className="main-skill-sub-wrapper">
+          <div className="skill-wrapper">
+            <div className="image-wrapper-icon">
+              <img src={express} />
+            </div>
+            <h4>ExpressJS</h4>
+          </div>
+        </div>
+        <div className="main-skill-sub-wrapper">
+          <div className="skill-wrapper">
+            <div className="image-wrapper-icon">
+              <img src={mongodb} />
+            </div>
+            <h4>MongoDB</h4>
+          </div>
         </div>
       </div>
     </div>

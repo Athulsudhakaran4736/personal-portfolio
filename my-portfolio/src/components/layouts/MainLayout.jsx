@@ -9,8 +9,8 @@ export const MainLayout = ({ children }) => {
       <Header />
       <div className="page-wrapper">
         <div className="content">{children}</div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };

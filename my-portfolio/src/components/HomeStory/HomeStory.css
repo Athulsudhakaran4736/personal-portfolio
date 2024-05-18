@@ -1,41 +1,39 @@
 .story-wrapper h1 {
   font-size: 70px;
   font-weight: 800;
+  margin-bottom: 0;
 }
 .main-story-wrapper p {
   font-size: 22px;
-  color: #4e525a;
+  color: white;
   font-weight: 400;
   line-height: 2;
 }
 .main-story-sub-wrapper{
-    border: 1px solid #6e06f777;
-    padding: 40px;
+    /* border: 1px solid #6e06f777; */
+    padding: 20px;
     width: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+}
+.main-story-sub-wrapper p {
+  line-height: 2.5;
 }
 @media only screen and (max-width: 600px){
   .story-wrapper h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
   }
-  .main-story-sub-wrapper{
-    border: 1px solid #6e06f777;
-    padding: 20px;
-    width: 100%;
-    border-radius: 20px;
-    /* max-width: 80%; */
-}
+
 .main-story-wrapper p {
   font-size: 18px;
-  color: #4e525a;
+  color: white;
   font-weight: 400;
   line-height: 2;
 }
 .main-story-sub-wrapper{
-  border: 1px solid #6e06f777;
-  padding: 40px;
+  /* border: 1px solid #6e06f777; */
+  /* padding: 40px; */
   width: auto;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 }

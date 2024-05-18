@@ -25,7 +25,7 @@ header {
 .name-text {
   font-size: 21px;
   font-weight: 800;
-  color: #24262f;
+  color: white;
 }
 .list-container ul {
   font-size: 22px;
@@ -35,15 +35,22 @@ header {
   align-items: center;
   column-gap: 50px;
   font-weight: 700;
+  
 }
 
-.list-container ul li {
-  color: #4e525a;
+a:-webkit-any-link {
+  text-decoration: none !important;
 }
-.list-container ul li:hover {
-  color: #6e06f2;
+.list-container ul li {
+  color: white;
+}
+.list-container ul li:hover{
+  color: #6e06f2 !important;
   cursor: pointer; 
 }
+/* .list-container ul li:active {
+  color: #6e06f2 !important;
+} */
 
 .contact-container{
     display: flex;
@@ -52,23 +59,21 @@ header {
     cursor: pointer;
 }
 .contact-container:hover{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 @media only screen and (max-width: 600px) {
-  header{
-    max-width: 90%;
-  }
+  
 .header-responsive{
   display: flex;
   justify-content: space-between;
-  max-width: 800px;
+  max-width: 1600px;
 }
   .res-name-text{
     display: block;
     font-size: 18px;
     font-weight: 800;
-    color: #24262f;
+    color: white;
   }
   .res-container.show {
     display: block;
