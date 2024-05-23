@@ -16,7 +16,7 @@ const HomeProject = () => {
         <div className="left-sub-project-wrapper">
           <div className="sub-project-wrapper">
             <Link to="https://business.whizlabs.com/dashboard">
-              <img src={whizlabs} height={350} />
+              <img src={whizlabs} height={250} />
             </Link>
           </div>
           <div
@@ -47,7 +47,7 @@ const HomeProject = () => {
         <div className="left-sub-project-wrapper">
           <div className="sub-project-wrapper">
             <Link to="https://github.com/Athulsudhakaran4736/Social">
-              <img src={social} height={350} />
+              <img src={social} height={250} />
             </Link>
           </div>
           <div

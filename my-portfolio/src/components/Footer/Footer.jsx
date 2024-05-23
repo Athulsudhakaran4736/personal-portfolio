@@ -43,7 +43,9 @@ const Footer = () => {
               <Link to="/contact-me">
                 <button className="work-button-one">Get In Touch</button>
               </Link>
-              <button className="work-button-two">Browse Projects</button>
+              <Link to="/projects">
+                <button className="work-button-two">Browse Projects</button>
+              </Link>
             </div>
           </div>
           <div className="copy-right">©2024 All Rights Reserved.</div>

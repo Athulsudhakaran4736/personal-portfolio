@@ -111,15 +111,19 @@ const Home = () => {
               </h1>
             </div>
             <div className="title-desc">
-              I{`'`}m a web developer based in Kerala,India. I{`'`}ll help you{" "}
-              <br />
-              build beautiful websites your users will love.
+              <p>
+                I{`'`}m a web developer based in Kerala, India. I{`'`}ll help
+                you build beautiful websites your users will love.
+              </p>
+              {/* <p></p> */}
             </div>
             <div className="work-button">
               <Link to="/contact-me">
                 <button className="work-button-one">Get In Touch</button>
               </Link>
-              <button className="work-button-two">Browse Projects</button>
+              <Link to="/projects">
+                <button className="work-button-two">Browse Projects</button>
+              </Link>
               <Link to="https://drive.google.com/file/d/1HsQo4sDw-pePy70C8cJ00eDS-mpD9y3k/view?usp=sharing">
                 <button className="work-button-one">Download CV</button>
               </Link>

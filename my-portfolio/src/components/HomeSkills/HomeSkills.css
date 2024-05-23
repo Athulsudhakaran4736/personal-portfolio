@@ -109,6 +109,9 @@
     font-size: 40px;
     font-weight: 800;
   }
+  .main-skill-sub-wrapper{
+    padding: 50px;
+  }
 
   /* .main-skill-wrapper .main-skill-header {
     font-size: 26px;

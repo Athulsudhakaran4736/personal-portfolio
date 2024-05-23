@@ -13,14 +13,19 @@ const HomeStory = () => {
             to upskill my self. <span style={{ color: "#6e06f2" }}>Udemy</span>{" "}
             and <span style={{ color: "#6e06f2" }}>YouTube</span> tutorials
             became my guides, leading me to create small static pages.
-            <br /> After graduation, I enrolled in a course in Bangalore, where
-            I delved into building real-time projects such as a React-based
-            social media clone. This journey landed me an internship at{" "}
+          </p>{" "}
+          <p>
+            After graduation, I enrolled in a course in Bangalore, where I
+            delved into building real-time projects such as a React-based social
+            media clone. This journey landed me an internship at{" "}
             <span style={{ color: "#6e06f2" }}>Whizlabs</span>, where I thrived
             for 10 months. Now, I{`'`}m a{" "}
             <span style={{ color: "#6e06f2" }}>freelancer</span>, embracing
             every challenge with gusto.
-            <br /> Join me as I continue to weave my story, crafting digital
+          </p>{" "}
+          <p>
+            {" "}
+            Join me as I continue to weave my story, crafting digital
             experiences that captivate, inspire, and endure. For in the tapestry
             of web development, the journey is as enthralling as the
             destination, and the possibilities, as limitless as the imagination
