@@ -4,6 +4,8 @@
 }
 .main-projects-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   column-gap: 50px;
   margin-bottom: 120px;
 }
