@@ -27,10 +27,18 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-social">
-            <FaInstagram size={26} className="social-link" />
-            <FiLinkedin size={26} className="social-link" />
-            <RiGithubLine size={26} className="social-link" />
-            <FaXTwitter size={26} className="social-link" />
+            <Link>
+              <FaInstagram size={26} className="social-link" />
+            </Link>
+            <Link to="https://www.linkedin.com/in/athul-sudhakaran-07472b212/">
+              <FiLinkedin size={26} className="social-link" />
+            </Link>
+            <Link to="https://github.com/Athulsudhakaran4736">
+              <RiGithubLine size={26} className="social-link" />
+            </Link>
+            <Link>
+              <FaXTwitter size={26} className="social-link" />
+            </Link>
           </div>
         </div>
         <div className="bottom-footer">
