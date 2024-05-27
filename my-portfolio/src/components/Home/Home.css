@@ -55,14 +55,14 @@
   align-items: center;
   border-radius: 50%;
   border: 1px solid #393939;
-  padding: 30px;
+  padding: 20px;
   animation: fade-out linear;
   animation-timeline: view();
   animation-range: exit -100px;
 }
 .image-wrapper img {
-  height: 450px;
-  width: 450px;
+  height: 400px;
+  width: 400px;
   animation: fade-out linear;
   animation-timeline: view();
   animation-range: exit -100px;

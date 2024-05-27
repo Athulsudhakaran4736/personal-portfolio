@@ -36,7 +36,7 @@ const Footer = () => {
             <Link to="https://github.com/Athulsudhakaran4736">
               <RiGithubLine size={26} className="social-link" />
             </Link>
-            <Link>
+            <Link to="https://x.com/AthulSudhakar11">
               <FaXTwitter size={26} className="social-link" />
             </Link>
           </div>

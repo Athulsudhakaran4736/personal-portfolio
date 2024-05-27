@@ -28,7 +28,7 @@ const HomeProject = () => {
               marginLeft: "20px",
             }}
           >
-            <h2>
+            <h2 className="project-header">
               Whizlabs Business{" "}
               {/* <span style={{ color: "#6e06f2", fontSize: "30px" }}>.</span> */}
             </h2>
@@ -59,7 +59,7 @@ const HomeProject = () => {
               marginLeft: "20px",
             }}
           >
-            <h2>
+            <h2 className="project-header">
               Social Media App{" "}
               {/* <span style={{ color: "#6e06f2", fontSize: "30px" }}>.</span> */}
             </h2>

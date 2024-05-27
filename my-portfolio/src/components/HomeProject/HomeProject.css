@@ -6,6 +6,7 @@
   display: flex;
   column-gap: 50px;
   margin-bottom: 120px;
+  justify-content: center;
 }
 .sub-project-wrapper {
   width: fit-content;
@@ -56,5 +57,9 @@
     object-fit: inherit;
     width: -webkit-fill-available;
     height: auto;
+  }
+
+  .project-header{
+    font-size: 16px;
   }
 }
