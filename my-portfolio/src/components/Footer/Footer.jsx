@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="bottom-footer">
           <div className="work-container">
             <div className="work-sub-container">
-              Interseted in working together
+              Interested in working together
               <span style={{ color: "#6e06f2" }}>?</span>
             </div>
             <div className="work-button">
